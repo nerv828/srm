@@ -5,7 +5,7 @@
     <groupId>com.nerv828.his.srm</groupId>
     <artifactId>srm</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>AppFuse Struts 2 Application</name>
     <url>http://www.mycompany.com</url>
 
@@ -24,7 +24,8 @@
         <connection>scm:git:https://github.com/nerv828/srm.git</connection>
         <developerConnection>scm:git:https://github.com/nerv828/srm.git</developerConnection>
         <url>scm:git:https://github.com/nerv828/srm.git</url>
-    </scm>
+      <tag>srm-1.0</tag>
+  </scm>
 
    <!-- <issueManagement>
         <system></system>
@@ -51,7 +52,7 @@
             <plugin>
                 <groupId>org.appfuse.plugins</groupId>
                 <artifactId>appfuse-maven-plugin</artifactId>
-                <version>${appfuse.version}</version>
+                <version>2.2.2</version>
                 <configuration>
                     <!-- Fix annotation detection issue for Java 7. Thanks Shred! -->
                     <!-- http://www.shredzone.de/cilla/page/352/hibernate3-maven-plugin-fails-with-java-17.html -->
