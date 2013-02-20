@@ -6,8 +6,8 @@
     <artifactId>srm</artifactId>
     <packaging>war</packaging>
     <version>1.1-SNAPSHOT</version>
-    <name>AppFuse Struts 2 Application</name>
-    <url>http://www.mycompany.com</url>
+    <name>The hospitals scientific research system</name>
+    <url>http://nerv828.com</url>
 
     <prerequisites>
         <maven>2.2.1</maven>
