@@ -21,9 +21,9 @@
     </licenses>-->
 
     <scm>
-        <connection>scm:git:https://github.com/nerv828/srm.git</connection>
-        <developerConnection>scm:git:https://github.com/nerv828/srm.git</developerConnection>
-        <url>scm:git:https://github.com/nerv828/srm.git</url>
+        <connection>scm:git:git@github.com:nerv828/srm.git</connection>
+        <developerConnection>scm:git:git@github.com:nerv828/srm.git</developerConnection>
+        <url>scm:git:git@github.com:nerv828/srm.git</url>
       <tag>HEAD</tag>
   </scm>
 
