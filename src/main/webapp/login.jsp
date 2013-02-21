@@ -1,11 +1,11 @@
 <%@ include file="/common/taglibs.jsp" %>
-
+<%@ page language="java"  pageEncoding="UTF-8"  %>
 <head>
     <title><fmt:message key="login.title"/></title>
     <meta name="menu" content="Login"/>
 </head>
 <body id="login">
-
+                                         <span class="alert">中文</span>
 <form method="post" id="loginForm" action="<c:url value='/j_security_check'/>"
     onsubmit="saveUsername(this);return validateForm(this)" class="form-signin" autocomplete="off">
     <h2 class="form-signin-heading">
